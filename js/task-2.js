@@ -1,6 +1,4 @@
-'use strict';
-
-function formatMessage(message, maxLength){
+  function formatMessage(message, maxLength){
   let longString = message.length;
 
   if (longString <= maxLength) {
